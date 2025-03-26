@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genius Tuition Classes</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        header {
+            background: #4a90e2;
+            color: white;
+            padding: 20px;
+            font-size: 32px;
+            text-align: center;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .container {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            margin: 20px;
+            width: 320px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+            border-radius: 12px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #4a90e2;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-top: 12px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .button:hover {
+            background: #357ABD;
+        }
+        .search-bar {
+            margin: 20px;
+            text-align: center;
+        }
+        .search-bar input {
+            padding: 12px;
+            width: 60%;
+            border: 2px solid #4a90e2;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+        .search-bar button {
+            padding: 12px 24px;
+            background: #4a90e2;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+        .search-bar button:hover {
+            background: #357ABD;
+        }
+        .testimonials {
+            background: #ffcc00;
+            padding: 40px;
+            text-align: center;
+            font-size: 18px;
+        }
+        .testimonial {
+            margin: 20px auto;
+            width: 60%;
+            font-style: italic;
+            color: #555;
+        }
+        .contact-form {
+            background: #50c878;
+            padding: 40px;
+            text-align: center;
+            color: white;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 60%;
+            padding: 12px;
+            margin: 12px 0;
+            border: 2px solid #fff;
+            border-radius: 8px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 16px;
+        }
+        .contact-form button {
+            padding: 12px 24px;
+            background: white;
+            color: #50c878;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+        .contact-form button:hover {
+            background: #f0f8ff;
+        }
+        footer {
+            background: #4a90e2;
+            color: white;
+            padding: 12px;
+            text-align: center;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Genius Tuition Classes
+    </header>
+    <div class="search-bar">
+        <input type="text" placeholder="Search for courses...">
+        <button>Search</button>
+    </div>
+    <div class="container">
+        <div class="card">
+            <h3>Mathematics</h3>
+            <p>Master algebra, calculus, and geometry with our expert tutors.</p>
+            <a href="#" class="button">Learn More</a>
+        </div>
+        <div class="card">
+            <h3>Science</h3>
+            <p>Explore physics, chemistry, and biology in an engaging way.</p>
+            <a href="#" class="button">Learn More</a>
+        </div>
+        <div class="card">
+            <h3>English</h3>
+            <p>Improve your grammar, writing, and comprehension skills.</p>
+            <a href="#" class="button">Learn More</a>
+        </div>
+    </div>
+    <div class="testimonials">
+        <h2>What Our Students Say</h2>
+        <p class="testimonial">"These classes helped me ace my exams! Highly recommended!" - Rohan</p>
+        <p class="testimonial">"The teachers are amazing and explain everything so well." - Priya</p>
+    </div>
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+    <footer>
+        &copy; 2025 Genius Tuition Classes
+    </footer>
+</body>
+</html>
